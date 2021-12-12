@@ -105,17 +105,15 @@ video {
 }
 
 .img-suspens {
-    z-index: 1;
+    /* z-index: 1; */
 }
 
-.img-vainqueur {
-    z-index: 0;
+ .img-vainqueur {
+    display: none;
 }
 
-.img-suspens:hover {
-    z-index: -1;
-    
-}
+
+
 
 
 
