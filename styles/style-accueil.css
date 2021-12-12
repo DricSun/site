@@ -1,0 +1,111 @@
+
+/* BODY */
+body {
+    background-color: #181A1B;
+    margin: 0px 0px;
+}
+/* TITRE */
+.titre {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'formula1display-bold';
+    font-style: italic;
+}
+/* NAVIGATION */
+nav a {
+    color: white;
+    font-family: 'formula1display-bold';
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin:0 10px;
+}
+
+nav button {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    min-width: 250px;
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+.nav-left {
+    width: 100%;
+}
+.container-navlinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-f1 {
+    width: 100px;
+}
+.logo-insta {
+    width: 50px;
+}
+
+/* Contenu */
+
+.contenu {
+    color: white;
+    font-family: 'formula1display-regular';
+    line-height: 25px ;
+    position: relative;.
+    word-wrap: break-word;
+    margin: 0 10px;
+}
+.contenu a {
+    color: red;
+}
+
+
+
+.pied-de-page {
+    background-color: grey;
+    margin-top: 50px;
+}
+
+
+
+/* POLICES */
+@font-face {
+    font-family: 'formula1display-black';
+    src: url('../font/formula1-black-webfont.woff2') format('woff2'),
+         url('../font/formula1-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'formula1display-wide';
+    src: url('.//font/formula1-wide-webfont.woff2') format('woff2'),
+         url('.//font/formula1-wide-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'formula1display-bold';
+    src: url('../font/formula1-bold-webfont.woff2') format('woff2'),
+         url('../font/formula1-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'formula1display-regular';
+    src: url('../font/formula1-regular-webfont.woff2') format('woff2'),
+         url('../font/formula1-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
